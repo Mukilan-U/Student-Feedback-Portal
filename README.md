@@ -5,15 +5,6 @@ A minimal Flask app that collects anonymous course feedback and shows an admin v
 CI/CD via GitHub Actions:
 - **install** → **lint/test** → **build** → **deploy (optional to Render)**.
 
-## Quick Start (Local)
-
-```bash
-python -m venv .venv
-source .venv/bin/activate  # Windows: .venv\Scripts\activate
-pip install -r requirements.txt
-flask --app app run --host 0.0.0.0 --port 8000
-```
-
 ## Run tests & lint locally
 ```bash
 pip install -r requirements.txt
